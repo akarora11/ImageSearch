@@ -49,5 +49,5 @@ var fs = require("fs");
  });
 
 app.listen(port, () => {
-	console.log('Listening on port' + port);
+	console.log('Listening on port ' + port);
 });
