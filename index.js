@@ -5,7 +5,7 @@ const fetch = require('node-fetch');
 var fs = require("fs");
 
  app.get("/", function (request, response){
-     response.sendFile(__dirname+"/test.html");
+     response.sendFile(__dirname+"/main.html");
  });
 
  app.get("/getSearch", async function (request, response){
